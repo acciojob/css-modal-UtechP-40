@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+/* Modal base styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black with transparency */
+  }
+  
+  .modal-content {
+    position: relative;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  /* Modal header styles */
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-modal {
+    font-size: 28px;
+    cursor: pointer;
+  }
+  
+  /* Center the modal content */
+  .modal-body p {
+    margin: 0;
+    padding: 20px 0;
+  }
+  
